@@ -1,11 +1,13 @@
-.Pineapple-Island-container{
+
+.Pineapple-Island-container {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center; 
 }
-.Pineapple-Island-container h6{
-    width: 148px;
-    height: 86px;
-    top: 50px;
-    left: 100px;
+
+
+.Pineapple-Island-container h6 {
     font-family: Playfair Display;
     font-size: 32px;
     font-weight: 700;
@@ -15,12 +17,16 @@
     color: #0E204E;
 }
 
-.Pineapple-Island-nav a{
+.Pineapple-Island-nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0; 
+    padding: 0; 
+}
+
+.Pineapple-Island-nav a {
     text-decoration: none;
-    width: 85px;
-    height: 27px;
-    top: 81px;
-    left: 744px;
+    margin-right: 100px; 
     font-family: Manrope;
     font-size: 20px;
     font-weight: 400;
@@ -30,16 +36,10 @@
     color: #232323;
 }
 
-.Pineapple-Island-nav ul{
-    list-style-type: none;
-}
 
-.Pineapple-Island-button{
+.Pineapple-Island-button {
     width: 188px;
     height: 50px;
-    top: 68px;
-    left: 1632px;
     background: #0E204E;
     color: #FFFFFF;
-
 }
